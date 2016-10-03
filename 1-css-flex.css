@@ -1,0 +1,488 @@
+/* Sweden 10:16 times 20 = 200:320 */
+#sweden {
+    height: 200px;
+    width: 320px;
+    border: 1px solid black;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+#sweden div.a {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 31.25%;
+    min-height: 40%;
+    background-color:#1C598F;
+    color:#1C598F;
+}
+
+#sweden div.b {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 12.5%;
+    min-height: 40%;
+    background-color:#F3CE1B;
+    color:#F3CE1B;
+}
+
+#sweden div.c {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 56.25%;
+    min-height: 40%;
+    background-color:#1C598F;
+    color:#1C598F;
+}
+
+#sweden div.d {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 100%;
+    min-height: 20%;
+    background-color:#F3CE1B;
+    color:#F3CE1B;
+}
+
+
+/* Finland dimensions are 11:18.  Times 20 = 220:360. Reduced to 91% =~ 200:328 */
+#finland {
+    height: 200px;
+    width: 328px;
+    border: 1px solid black;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+/* 
+   percentages truncated not rounded, since css flex uses last div to fill up any slack,
+   and going over 100.00% slightly breaks the visual flow presentation by pushing the div
+   to the next line. 
+   
+   e.g. finland row 1 div widths a,b,c = 27.77 + 16.66 + 55.55 =  99.98 (GOOD)
+        instead of                     = 27.78 + 16.67 + 55.56 = 100.01 (BAD)
+*/
+
+/* section A.  width 5:18 = 27.77%.  height 4:11 = 36.36% */
+#finland div.a {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 27.77%;
+    min-height: 36.36%;
+    background-color:#F9FFFF;
+    color:#F9FFFF;
+}
+
+/* section B.  width 3:18 = 16.66%.  height 4:11 = 36.37% */
+#finland div.b {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 16.66%;
+    min-height: 36.36%;
+    background-color:#36498B;
+    color:#36498B;
+}
+
+/* section C.  width 10:18 = 55.55%.  height 4:11 = 36.37% */
+#finland div.c {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 55.55%;
+    min-height: 36.36%;
+    background-color:#F9FFFF;
+    color:#F9FFFF;
+}
+
+/* section D.  width 18:18 = 100.00%.  height 3:11 = 27.27% */
+#finland div.d {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 100.00%;
+    min-height: 27.27%;
+    background-color:#36498B;
+    color:#36498B;
+}
+
+
+
+
+
+
+
+/* Denmark dimensions are 14:17.  Times 20 = 280:340. Reduced to 94% =~ 263:320 */
+#denmark {
+    height: 263px;
+    width: 320px;
+    border: 1px solid black;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+/* section A.  width 6:17 = 35.29%.  height 6:14 = 42.85% */
+#denmark div.a {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 35.29%;
+    min-height: 42.85%;
+    background-color:#D92429;
+    color:#D92429;
+}
+
+/* section B.  width 2:17 = 11.76%.  height 6:14 = 42.85% */
+#denmark div.b {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 11.76%;
+    min-height: 42.85%;
+    background-color:#FEFEFF;
+    color:#FEFEFF;
+}
+
+/* section C.  width 9:17 = 52.94%.  height 6:14 = 42.85% */
+#denmark div.c {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 52.94%;
+    min-height: 42.85%;
+    background-color:#D92429;
+    color:#D92429;
+}
+
+/* section D.  width 17:17 = 100.00%.  height 2:14 = % */
+#denmark div.d {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 100%;
+    min-height: 14.28%;
+    background-color:#FEFEFF;
+    color:#FEFEFF;
+}
+
+
+
+
+/* Iceland dimensions are 18:25.  Times 20 = 360:500. Reduced to 64% =~ 230:320 */
+#iceland {
+    height: 230px;
+    width: 320px;
+    border: 1px solid black;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+	font-size:50%;
+}
+
+/* section A.  width 7:25 = 28%.  height 7:18 = 38.88% */
+#iceland div.a {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 28%;
+    min-height: 38.88%;
+    background-color:#343B7F;
+    color:#343B7F;
+}
+
+/* section B.  width 1:25 = 4%.  height 7:18 = 38.88% */
+#iceland div.b {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 4%;
+    min-height: 38.88%;
+    background-color:#FFFBF5;
+    color:#FFFBF5;
+}
+
+/* section C.  width 2:25 = 8%.  height 7:18 = 38.88% */
+#iceland div.c {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 8%;
+    min-height: 38.88%;
+    background-color:#D9242B;
+    color:#D9242B;
+}
+
+/* section D.  width 14:25 = 56%.  height 7:18 = 38.88% */
+#iceland div.d {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 56%;
+    min-height: 38.88%;
+    background-color:#343B7F;
+    color:#343B7F;
+}
+
+/* section E.  width 8:25 = 32%.  height 1:18 = 5.55% */
+#iceland div.e {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 32%;
+    min-height: 5.55%;
+    background-color:#FFFBF5;
+    color:#FFFBF5;
+}
+
+/* section F.  width 2:25 = 8%.  height 1:18 = 5.55% */
+#iceland div.f {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 8%;
+    min-height: 5.55%;
+    background-color:#D9242B;
+    color:#D9242B;
+}
+
+/* section G.  width 15:25 = 60%.  height 1:18 = 5.55% */
+#iceland div.g {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 60%;
+    min-height: 5.55%;
+    background-color:#FFFBF5;
+    color:#FFFBF5;
+}
+
+/* section H.  width 25:25 = 100%.  height 2:18 = 11.11% */
+#iceland div.h {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 100%;
+    min-height: 11.11%;
+    background-color:#D9242B;
+    color:#D9242B;
+}
+
+
+
+
+
+/* Norway dimensions are 16:22.  Times 20 = 320:440. Reduced to 72% =~ 230:317 */
+#norway {
+    height: 230px;
+    width: 317px;
+    border: 1px solid black;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+	font-size:50%;
+}
+
+/* section A.  width 6:22 = 27.27%.  height 6:16 = 37.5% */
+#norway div.a {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 27.27%;
+    min-height: 37.5%;
+    background-color:#A7292D;
+    color:#A7292D;
+}
+
+/* section B.  width 1:22 = 4.54%.  height 6:16 = 37.5% */
+#norway div.b {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 4.54%;
+    min-height: 37.5%;
+    background-color:#FCFFFD;
+    color:#FCFFFD;
+}
+
+/* section C.  width 2:22 = 9.09%.  height 6:16 = 37.5% */
+#norway div.c {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 9.09%;
+    min-height: 37.5%;
+    background-color:#22255A;
+    color:#22255A;
+}
+
+/* section D.  width 12:22 = 54.54%.  height 6:16 = 37.5% */
+#norway div.d {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 54.50%; /*not sure why overflowed, reduced right-most to keep in black border*/
+    min-height: 37.5%;
+    background-color:#A7292D;
+    color:#A7292D;
+}
+
+/* section E.  width 7:22 = 31.81%.  height 1:16 = 6.25% */
+#norway div.e {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 31.81%;
+    min-height: 6.25%;
+    background-color:#FCFFFD;
+    color:#FCFFFD;
+}
+
+/* section F.  width 2:22 = 9.09%.  height 1:16 = 6.25% */
+#norway div.f {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 9.09%;
+    min-height: 6.25%;
+    background-color:#22255A;
+    color:#22255A;
+}
+
+/* section G.  width 13:22 = 59.09%.  height 1:16 = 6.25% */
+#norway div.g {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 59.09%;
+    min-height: 6.25%;
+    background-color:#FCFFFD;
+    color:#FCFFFD;
+}
+
+/* section H.  width 22:22 = 100%.  height 2:16 = 12.5% */
+#norway div.h {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 100%;
+    min-height: 12.5%;
+    background-color:#22255A;
+    color:#22255A;
+}
+
+
+
+
+
+
+/* Faroe Islands dimensions are 16:22.  Times 20 = 320:440. Reduced to 72% =~ 230:317 */
+#faroe_islands {
+    height: 230px;
+    width: 317px;
+    border: 1px solid black;
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+	font-size:50%;
+}
+
+/* section A.  width 6:22 = 27.27%.  height 6:16 = 37.5% */
+#faroe_islands div.a {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 27.27%;
+    min-height: 37.5%;
+    background-color:#FEFEFC;
+    color:#FEFEFC;
+}
+
+/* section B.  width 1:22 = 4.54%.  height 6:16 = 37.5% */
+#faroe_islands div.b {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 4.54%;
+    min-height: 37.5%;
+    background-color:#3466A5;
+    color:#3466A5;
+}
+
+/* section C.  width 2:22 = 9.09%.  height 6:16 = 37.5% */
+#faroe_islands div.c {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 9.09%;
+    min-height: 37.5%;
+    background-color:#D0392E;
+    color:#D0392E;
+}
+
+/* section D.  width 12:22 = 54.54%.  height 6:16 = 37.5% */
+#faroe_islands div.d {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 54.50%; /*not sure why overflowed, reduced right-most to keep in black border*/
+    min-height: 37.5%;
+    background-color:#FEFEFC;
+    color:#FEFEFC;
+}
+
+/* section E.  width 7:22 = 31.81%.  height 1:16 = 6.25% */
+#faroe_islands div.e {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 31.81%;
+    min-height: 6.25%;
+    background-color:#3466A5;
+    color:#3466A5;
+}
+
+/* section F.  width 2:22 = 9.09%.  height 1:16 = 6.25% */
+#faroe_islands div.f {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 9.09%;
+    min-height: 6.25%;
+    background-color:#D0392E;
+    color:#D0392E;
+}
+
+/* section G.  width 13:22 = 59.09%.  height 1:16 = 6.25% */
+#faroe_islands div.g {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 59.09%;
+    min-height: 6.25%;
+    background-color:#3466A5;
+    color:#3466A5;
+}
+
+/* section H.  width 22:22 = 100%.  height 2:16 = 12.5% */
+#faroe_islands div.h {
+    -webkit-flex: 1;  /* Safari 6.1+ */
+    -ms-flex: 1;  /* IE 10 */
+    flex: 1;
+    min-width: 100%;
+    min-height: 12.5%;
+    background-color:#D0392E;
+    color:#D0392E;
+}
