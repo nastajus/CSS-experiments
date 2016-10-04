@@ -1037,8 +1037,30 @@ div {
 }
 
 
-.handle {
-  width: 178px;
+
+.string-mask-more-left {
+  width: 160px;
+  height: 420px;  
+  transform: rotate(225deg);
+  background: white;
+  top: -105px;
+  left: 400px;
+
+}
+
+.string-mask-more-right {
+  width: 160px;
+  height: 420px;  
+  transform: rotate(225deg);
+  background: white;
+  top: 105px;
+  left: 750px;
+}
+
+
+
+.handle-grip {
+  width: 130px;
   height: 22px;
   background: black;
   top: 418px;
@@ -1046,6 +1068,84 @@ div {
   transform: rotate(315deg);
   -webkit-transform-origin: 0% 0%; /* Chrome, Safari, Opera */
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
-
 }
 
+.handle-throat-left {
+  width:130px; height:30px;  
+  border:solid 8px black;
+  border-color: black transparent transparent transparent;
+  border-radius: 50%/30px 30px 0 0;
+  transform: rotate(100deg);
+  left: 436px;
+  top: 272px;
+  
+}
+
+.handle-throat-right {
+  width:130px; height:30px;  
+  border:solid 8px black;
+  border-color: black transparent transparent transparent;
+  border-radius: 50%/30px 30px 0 0;
+  transform: rotate(350deg);
+  left: 488px;
+  top: 320px;
+  
+}
+
+.tape1 {
+  width: 1px;
+  height: 122px;
+  background: white;
+  top: 350px;
+  left: 450px;
+  transform: rotate(105deg);
+}
+
+.tape1 {
+  width: 1px;
+  height: 200px;
+  background: white;
+  top: 350px;
+  left: 450px;
+  transform: rotate(105deg);
+}
+.tape2 {
+  width: 1px;
+  height: 200px;
+  background: white;
+  top: 330px;
+  left: 450px;
+  transform: rotate(105deg);
+}
+.tape3 {
+  width: 1px;
+  height: 200px;
+  background: white;
+  top: 310px;
+  left: 450px;
+  transform: rotate(105deg);
+}
+.tape4 {
+  width: 1px;
+  height: 200px;
+  background: white;
+  top: 290px;
+  left: 450px;
+  transform: rotate(105deg);
+}
+.tape5 {
+  width: 1px;
+  height: 200px;
+  background: white;
+  top: 270px;
+  left: 450px;
+  transform: rotate(105deg);
+}
+.tape6 {
+  width: 1px;
+  height: 200px;
+  background: white;
+  top: 250px;
+  left: 450px;
+  transform: rotate(105deg);
+} 
