@@ -1,33 +1,52 @@
+/* numbers horizontal lines*/
+.trace1{
+  width: 800px;
+  height: 2px;
+  background: black;
+  
+  position: absolute;
+  top:700px
+}
+
+/*letters vertical lines*/
+.traceA{
+  height: 1000px;
+  width: 2px;
+  background: black;
+  position:absolute;
+  left: 400px;
+}
+
 /*main board*/
 .a {
-  width: 400px;
-  height: 148px;
+  width: 600px;
+  height: 200px;
   background:red;
   
   position:absolute;
   top:600px;
-  left:300px;
-  border-bottom-right-radius:160px 40px;
-  border-bottom-left-radius:160px 40px;
-  border-top-right-radius:160px 40px;
-  border-top-left-radius:160px 40px;
+  left:100px;
+  border-bottom-right-radius:200px 60px;
+  border-bottom-left-radius:200px 60px;
+  border-top-right-radius:200px 60px;
+  border-top-left-radius:200px 60px;
 
 }
 
 
 /*board also, but sticky outty part*/
 .b {
-  width: 412px;
-  height: 80px;
+  width: 616px;
+  height: 100px;
   background: gray;
   
   position: absolute;
-  top:634px;
-  left: 294px;
-  border-bottom-right-radius: 40px 160px;
-  border-bottom-left-radius: 40px 160px;
-  border-top-right-radius: 40px 160px;
-  border-top-left-radius: 40px 160px;
+  top: 650px;
+  left: 92px;
+  border-bottom-right-radius: 60px 200px;
+  border-bottom-left-radius: 60px 200px;
+  border-top-right-radius: 60px 200px;
+  border-top-left-radius: 60px 200px;
 }
 
 
