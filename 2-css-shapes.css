@@ -675,6 +675,15 @@ div {
   left: 510px;
 }
 
+.racket-head-shape:before {
+  width:80px;
+  height:80px;
+  top:-40px;
+  left:-40px;
+  border-radius:100%;
+  box-shadow:0 0 0 2000px #1D005D;/* here draw the shadow inside its parent , maybe z-index will be required for content */
+}
+
 .string1 {
   width: 400px;
   height: 2px;
@@ -804,13 +813,24 @@ div {
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
 
-.l {
-  width: 200px;
-  height: 400px;  
-  transform: rotate(315deg);
+.string-mask-bottom-left {
+  width: 220px;
+  height: 160px;  
+  transform: rotate(135deg);
   background: pink;
-  top: 180px;
-  left: 380px;
+  top: 145px;
+  left: 415px;
+  -webkit-mask-image: radial-gradient(ellipse at 0 0, transparent 0, transparent 50%, black 50%, black 100%);
+}
+
+.string-mask-bottom-right {
+  width: 160px;
+  height: 220px;  
+  transform: rotate(45deg);
+  background: purple;
+  top: 214px;
+  left: 543px;
+  -webkit-mask-image: radial-gradient(ellipse at 0 0, transparent 0, transparent 50%, black 50%, black 100%);
 }
 
 
