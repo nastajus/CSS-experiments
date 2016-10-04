@@ -1037,5 +1037,15 @@ div {
 }
 
 
+.handle {
+  width: 178px;
+  height: 22px;
+  background: black;
+  top: 418px;
+  left: 418px;
+  transform: rotate(315deg);
+  -webkit-transform-origin: 0% 0%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 0%; /*keeps rotation point at left end*/
 
+}
 
