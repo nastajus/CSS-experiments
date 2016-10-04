@@ -41,6 +41,13 @@ div {
   left: 700px;
 }
 
+.traceD{
+  height: 1000px;
+  width: 2px;
+  background: slateblue;
+  left: 200px;
+}
+
 
 .board-layer1-main-fattest {
   width: 600px;
@@ -292,37 +299,109 @@ div {
 
 
 .shoe-sole {
-   display:block;
-   width: 126px;
+   width: 130px;
    height: 220px;
    background-color: red;
    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
    border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
    transform: rotateX(180deg);
+   left: 136px;
+   top: 300px;
 }
 
 .shoe-heel {
-   display:block;
    width: 80px;
    height: 100px;
    background-color: red;
    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
    border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
-   top: 180px;
-   left: 30px;
+   left: 162px;
+   top: 480px;
 }
 
 .shoe-negative-between-sole-and-heel {
-  position: relative;
   width: 140px;
   height: 70px;
   margin: 20px 0;
   background: white;
-  border-radius: 50% / 10%;
-  top: 130px;
+  border-top-right-radius: 110px 30px ;
+  border-top-left-radius: 110px 30px ;
+  border-bottom-right-radius: 110px 30px ;
+  border-bottom-left-radius: 110px 30px ;
+  top: 430px;
+  left: 130px;
+}
+
+.chevron-1-tip-left {
+  width: 18px;
+  height: 6px;
+  top: 340px;
+  left: 187px;
+  background: purple;
+  -webkit-transform: rotate(345deg);
+  transform: rotate(345deg);
+  border-radius: 3px;
+  -webkit-transform-origin: 100% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 100% 100%; /*keeps rotation point at right end*/
+}
+
+.chevron-1-tip-right {
+  width: 18px;
+  height: 6px;
+  top: 340px;
+  left: 199px;
+  background: purple;
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  border-radius: 3px;
+  -webkit-transform-origin: 0% 0%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 0%; /*keeps rotation point at left end*/
+}
+
+.chevron-1-straight-line-left {
+  width: 50px;
+  height: 6px;
+  top: 344px;
+  left: 142px;
+  background: purple;
+  border-radius: 3px;
+}
+
+.chevron-1-straight-line-right {
+  width: 50px;
+  height: 6px;
+  top: 344px;
+  left: 210px;
+  background: purple;
+  border-radius: 3px;
 }
 
 
+.dh {
+  width: 83px;
+  height: 6px;
+  top: 354px;
+  left: 120px;
+  background: purple;
+  display: block;
+   -webkit-transform: rotate(350deg);
+   transform: rotate(350deg);
+   border-radius: 3px;
+
+}
+
+.id {
+  width: 83px;
+  height: 6px;
+  top: 354px;
+  left: 197px;
+  background: purple;
+  display: block;
+   -webkit-transform: rotate(10deg);
+   transform: rotate(10deg);
+   border-radius: 3px;
+
+}
 
 
 
