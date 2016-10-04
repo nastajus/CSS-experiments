@@ -17,8 +17,8 @@
   left: 400px;
 }
 
-/*main board*/
-.a {
+
+.board-main-fattest {
   width: 600px;
   height: 200px;
   background:red;
@@ -33,9 +33,7 @@
 
 }
 
-
-/*board also, but sticky outty part*/
-.b {
+.board-middle-thinner {
   width: 616px;
   height: 100px;
   background: gray;
