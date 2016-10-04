@@ -58,6 +58,17 @@ div {
   transform: rotate(315deg);
 }
 
+.traceY {
+  width: 365px;
+  height: 2px;
+  background: slateblue;
+  top: 130px;
+  left: 580px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
 
 .board-layer1-main-fattest {
   width: 600px;
@@ -645,20 +656,10 @@ div {
 
 
 
-.racket-head-oversized-backing {
-  width: 600px;
-	height: 400px;
-	background: pink;
-	border-radius: 300px / 200px;
-  transform: rotate(315deg);
-  top: 100px;
-  left: 500px;
-}
-
 .racket-head-shape {
   width: 300px;
 	height: 200px;
-	background: red;
+	background: black;
 	border-radius: 150px / 100px;
   transform: rotate(315deg);
   top: 100px;
@@ -685,7 +686,7 @@ div {
 }
 
 .string1 {
-  width: 400px;
+  width: 320px;
   height: 2px;
   background: black;
   top: 320px;
@@ -695,8 +696,8 @@ div {
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
 
-.a {
-  width: 400px;
+.string2 {
+  width: 320px;
   height: 2px;
   background: black;
   top: 310px;
@@ -706,8 +707,8 @@ div {
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
 
-.b {
-  width: 400px;
+.string3 {
+  width: 310px;
   height: 2px;
   background: black;
   top: 300px;
@@ -717,8 +718,8 @@ div {
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
 
-.c {
-  width: 400px;
+.string4 {
+  width: 300px;
   height: 2px;
   background: black;
   top: 290px;
@@ -728,8 +729,8 @@ div {
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
 
-.d {
-  width: 400px;
+.string5 {
+  width: 285px;
   height: 2px;
   background: black;
   top: 280px;
@@ -739,8 +740,8 @@ div {
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
 
-.e {
-  width: 400px;
+.string6 {
+  width: 265px;
   height: 2px;
   background: black;
   top: 270px;
@@ -750,8 +751,8 @@ div {
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
 
-.f {
-  width: 400px;
+.string7 {
+  width: 320px;
   height: 2px;
   background: black;
   top: 330px;
@@ -761,8 +762,8 @@ div {
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
 
-.g {
-  width: 400px;
+.string8 {
+  width: 315px;
   height: 2px;
   background: black;
   top: 340px;
@@ -771,8 +772,8 @@ div {
   -webkit-transform-origin: 0% 0%; /* Chrome, Safari, Opera */
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
-.h {
-  width: 400px;
+.string9 {
+  width: 310px;
   height: 2px;
   background: black;
   top: 350px;
@@ -781,8 +782,8 @@ div {
   -webkit-transform-origin: 0% 0%; /* Chrome, Safari, Opera */
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
-.i {
-  width: 400px;
+.string10 {
+  width: 300px;
   height: 2px;
   background: black;
   top: 360px;
@@ -791,8 +792,8 @@ div {
   -webkit-transform-origin: 0% 0%; /* Chrome, Safari, Opera */
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
-.j {
-  width: 400px;
+.string11 {
+  width: 290px;
   height: 2px;
   background: black;
   top: 370px;
@@ -802,22 +803,203 @@ div {
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
 
-.k {
-  width: 400px;
+.string12 {
+  width: 265px;
   height: 2px;
   background: black;
   top: 380px;
-  left: 580px;
+  left: 480px;
   transform: rotate(315deg);
   -webkit-transform-origin: 0% 0%; /* Chrome, Safari, Opera */
   transform-origin: 0% 0%; /*keeps rotation point at left end*/
 }
 
+
+/*skips to 20 to indicate other orientation*/
+.a {
+  width: 365px;
+  height: 2px;
+  background: black;
+  top: 180px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.b {
+  width: 365px;
+  height: 2px;
+  background: black;
+  top: 160px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.c {
+  width: 365px;
+  height: 2px;
+  background: black;
+  top: 140px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.d {
+  width: 365px;
+  height: 2px;
+  background: black;
+  top: 120px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.e {
+  width: 365px;
+  height: 2px;
+  background: black;
+  top: 100px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.f {
+  width: 365px;
+  height: 2px;
+  background: black;
+  top: 80px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.g {
+  width: 365px;
+  height: 2px;
+  background: black;
+  top: 60px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.h {
+  width: 365px;
+  height: 2px;
+  background: black;
+  top: 40px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+
+.i {
+  width: 365px;
+  height: 2px;
+  background: black;
+  top: 20px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.j {
+  width: 465px;
+  height: 2px;
+  background: black;
+  top: 0px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.k {
+  width: 465px;
+  height: 2px;
+  background: black;
+  top: -20px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.l {
+  width: 465px;
+  height: 2px;
+  background: black;
+  top: -40px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.m {
+  width: 465px;
+  height: 2px;
+  background: black;
+  top: -60px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.n {
+  width: 465px;
+  height: 2px;
+  background: black;
+  top: -80px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.o {
+  width: 465px;
+  height: 2px;
+  background: black;
+  top: -100px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+.p {
+  width: 465px;
+  height: 2px;
+  background: black;
+  top: -120px;
+  left: 480px;
+  transform: rotate(45deg);
+  -webkit-transform-origin: 0% 100%; /* Chrome, Safari, Opera */
+  transform-origin: 0% 100%; /*keeps rotation point at left end*/
+}
+
+
+
 .string-mask-bottom-left {
   width: 220px;
   height: 160px;  
   transform: rotate(135deg);
-  background: pink;
+  background: white;
   top: 145px;
   left: 415px;
   -webkit-mask-image: radial-gradient(ellipse at 0 0, transparent 0, transparent 50%, black 50%, black 100%);
@@ -827,9 +1009,30 @@ div {
   width: 160px;
   height: 220px;  
   transform: rotate(45deg);
-  background: purple;
+  background: white;
   top: 214px;
   left: 543px;
+  -webkit-mask-image: radial-gradient(ellipse at 0 0, transparent 0, transparent 50%, black 50%, black 100%);
+}
+
+
+.string-mask-top-left {
+  width: 220px;
+  height: 160px;  
+  transform: rotate(315deg);
+  background: white;
+  top: 90px;
+  left: 665px;
+  -webkit-mask-image: radial-gradient(ellipse at 0 0, transparent 0, transparent 50%, black 50%, black 100%);
+}
+
+.string-mask-top-right {
+  width: 160px;
+  height: 220px;  
+  transform: rotate(225deg);
+  background: white;
+  top: -35px;
+  left: 600px;
   -webkit-mask-image: radial-gradient(ellipse at 0 0, transparent 0, transparent 50%, black 50%, black 100%);
 }
 
