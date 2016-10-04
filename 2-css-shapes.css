@@ -1,0 +1,26 @@
+/*main board*/
+.a {
+  width: 400px;
+  height: 148px;
+  background:red;
+  
+  position:absolute;
+  top:600px;
+  left:300px;
+  /*border-radius:20px;*/
+  -webkit-border-radius: 160px 40px;
+
+}
+
+
+/*board also, but sticky outty part*/
+.b {
+  width: 412px;
+  height: 80px;
+  background: gray;
+  
+  position: absolute;
+  top:634px;
+  left: 294px;
+  -webkit-border-radius:40px 160px ;
+}
