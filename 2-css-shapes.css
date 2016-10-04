@@ -1,29 +1,43 @@
-/* numbers horizontal lines*/
+div {
+  position: absolute;
+}
+
+/* traces with numbers are horizontal lines*/
+/*              letters are  vertical lines*/
+
 .trace1{
   width: 800px;
   height: 2px;
   background: black;
-  
-  position: absolute;
   top:700px
 }
 
-/*letters vertical lines*/
 .traceA{
   height: 1000px;
   width: 2px;
   background: black;
-  position:absolute;
   left: 400px;
 }
 
+.traceB{
+  height: 1000px;
+  width: 2px;
+  background: black;
+  left: 100px;
+}
 
-.board-main-fattest {
+.traceC{
+  height: 1000px;
+  width: 2px;
+  background: black;
+  left: 700px;
+}
+
+
+.board-layer1-main-fattest {
   width: 600px;
   height: 200px;
   background:red;
-  
-  position:absolute;
   top:600px;
   left:100px;
   border-bottom-right-radius:200px 60px;
@@ -33,12 +47,10 @@
 
 }
 
-.board-middle-thinner {
+.board-layer2-middle-thinner {
   width: 616px;
   height: 100px;
   background: gray;
-  
-  position: absolute;
   top: 650px;
   left: 92px;
   border-bottom-right-radius: 60px 200px;
@@ -47,5 +59,31 @@
   border-top-left-radius: 60px 200px;
 }
 
+.baseplate-left{
+  width: 80px;
+  height: 60px;
+  background: dodgerblue;
+  left: 160px;
+  top: 672px;
+  border-radius: 10px;
+}
+
+.baseplate-right{
+  width: 80px;
+  height: 60px;
+  background: dodgerblue;
+  left: 560px;
+  top: 672px;
+  border-radius: 10px;
+}
+
+.screw {
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 4px;
+  left: 566px;
+  top: 678px;
+}
 
 
