@@ -7,8 +7,10 @@
   position:absolute;
   top:600px;
   left:300px;
-  /*border-radius:20px;*/
-  -webkit-border-radius: 160px 40px;
+  border-bottom-right-radius:160px 40px;
+  border-bottom-left-radius:160px 40px;
+  border-top-right-radius:160px 40px;
+  border-top-left-radius:160px 40px;
 
 }
 
@@ -22,5 +24,11 @@
   position: absolute;
   top:634px;
   left: 294px;
-  -webkit-border-radius:40px 160px ;
+  border-bottom-right-radius: 40px 160px;
+  border-bottom-left-radius: 40px 160px;
+  border-top-right-radius: 40px 160px;
+  border-top-left-radius: 40px 160px;
 }
+
+
+
