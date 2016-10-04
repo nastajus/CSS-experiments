@@ -288,3 +288,56 @@ div {
 
 
 
+
+
+
+.shoe-sole {
+   display:block;
+   width: 126px;
+   height: 220px;
+   background-color: red;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   transform: rotateX(180deg);
+}
+
+.shoe-heel {
+   display:block;
+   width: 80px;
+   height: 100px;
+   background-color: red;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+   top: 180px;
+   left: 30px;
+}
+
+.shoe-negative-between-sole-and-heel {
+  position: relative;
+  width: 140px;
+  height: 70px;
+  margin: 20px 0;
+  background: white;
+  border-radius: 50% / 10%;
+  top: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
