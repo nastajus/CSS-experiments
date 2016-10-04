@@ -12,6 +12,14 @@ div {
   top:700px
 }
 
+.trace2{
+  width: 800px;
+  height: 2px;
+  background: slateblue;
+  top:400px
+}
+
+
 .traceA{
   height: 1000px;
   width: 2px;
@@ -71,7 +79,7 @@ div {
   border-radius: 10px;
 }
 
-.screw {
+.screw-right-1 {
   width: 8px;
   height: 8px;
   background: black;
@@ -80,8 +88,44 @@ div {
   top: 678px;
 }
 
-/*must be under truck-right-part2*/
-.truck-right-part1 {
+.screw-right-2 {
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 4px;
+  left: 628px;
+  top: 678px;
+}
+
+.screw-right-3 {
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 4px;
+  left: 628px;
+  top: 720px;
+}
+
+.screw-right-4 {
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 4px;
+  left: 566px;
+  top: 720px;
+}
+
+.kingpin-right{
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius:10px;
+  left: 590px;
+  top: 690px;
+  border-left:8px solid black;
+}
+
+.truck-right-angled-top {
   width: 0px;
   height: 90px;
   left: 580px;
@@ -92,8 +136,20 @@ div {
   border-bottom: 90px solid white;
   
 }
+.truck-right-angled-bottom {
+  width: 0px;
+  height: 90px;
+  left: 580px;
+  top: 700px;
+  
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 90px solid white;
+  
+}
 
-.truck-right-part2 {
+/* div of this must come after divs of angled */
+.truck-right-flat {
   width: 14px;
   height: 180px;
   background: white;
@@ -105,7 +161,6 @@ div {
   
 }
 
-/*wheel-right-top*/
 .wheel-right-top {
   width: 60px;
   height: 30px;
@@ -115,18 +170,121 @@ div {
   border-radius: 5px;
   
 }
-
-
-
-
-.aaa {
-  border-radius:20px / 40px;
-  width:25px;
-  height:40px;
-  background:gray;
-  left:180px;
-  top:720px;
-  border-left:2px solid #fff;
-  z-index:991;
+.wheel-right-bottom {
+  width: 60px;
+  height: 30px;
+  background: white;
+  left: 574px;
+  top: 760px;
+  border-radius: 5px;
+  
 }
+
+
+
+
+.screw-left-1 {
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 4px;
+  left: 166px;
+  top: 678px;
+}
+
+.screw-left-2 {
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 4px;
+  left: 228px;
+  top: 678px;
+}
+
+.screw-left-3 {
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 4px;
+  left: 228px;
+  top: 720px;
+}
+
+.screw-left-4 {
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 4px;
+  left: 166px;
+  top: 720px;
+}
+
+.kingpin-left{
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius:10px;
+  left: 190px;
+  top: 690px;
+  border-right: 8px solid black;
+}
+
+
+.truck-left-angled-top {
+  width: 0px;
+  height: 90px;
+  left: 186px;
+  top: 520px;
+  
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-bottom: 90px solid white;
+  
+}
+.truck-left-angled-bottom {
+  width: 0px;
+  height: 90px;
+  left: 186px;
+  top: 700px;
+  
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-top: 90px solid white;
+  
+}
+
+/* div of this must come after divs of angled */
+.truck-left-flat {
+  width: 14px;
+  height: 180px;
+  background: white;
+  left: 186px;
+  top: 610px;
+  border-top-left-radius: 20px 10px;
+  border-bottom-left-radius: 20px 10px;
+  border-left: 2px solid black;  
+  
+}
+
+.wheel-left-top {
+  width: 60px;
+  height: 30px;
+  background: white;
+  left: 174px;
+  top: 610px;
+  border-radius: 5px;
+  
+}
+.wheel-left-bottom {
+  width: 60px;
+  height: 30px;
+  background: white;
+  left: 174px;
+  top: 760px;
+  border-radius: 5px;
+  
+}
+
+
+
 
