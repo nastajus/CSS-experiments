@@ -993,6 +993,123 @@ div {
   transform-origin: 0% 100%; /*keeps rotation point at left end*/
 }
 
+.q {
+  width: 100px;
+  height: 2px;
+  background: black;
+  transform: rotate(45deg);
+  left: 100px;
+  top: 100px;
+}
+
+.r {
+  width: 100px;
+  height: 2px;
+  background: black;
+  transform: rotate(45deg);
+  left: 50px;
+  top: 100px;
+}
+
+.s {
+  width: 100px;
+  height: 2px;
+  background: darkslategray;
+  transform: rotate(45deg);
+  left: 200px;
+  top: 200px;  
+  transform-origin: 0% 0%;
+}
+
+.t {
+  width: 100px;
+  height: 2px;
+  background: darkslategray;
+  transform: rotate(45deg);
+  left: 150px;
+  top: 200px;  
+  transform-origin: 0% 0%;
+}
+
+
+.u {
+  width: 100px;
+  height: 2px;
+  background: darkslategray;
+  transform: rotate(315deg);
+  left: 200px;
+  top: 200px;  
+  transform-origin: 0% 0%;
+}
+
+.v {
+  width: 100px;
+  height: 2px;
+  background: darkslategray;
+  transform: rotate(315deg);
+  left: 150px;
+  top: 200px;  
+  transform-origin: 0% 0%;
+}
+
+.w {
+  width: 100px;
+  height: 2px;
+  background: red;
+  transform: rotate(50deg);
+  left: 200px;
+  top: 200px;  
+  transform-origin: 100% 100%;
+}
+
+.x {
+  width: 120px;   /*making this different width from .w above proves how the transform-origin is coupled with the width*/
+  height: 2px;
+  background: orange;
+  transform: rotate(50deg);
+  left: 150px;
+  top: 200px;  
+  transform-origin: 100% 100%;
+}
+
+
+.trace10{
+  width: 200px;
+  height: 2px;
+  background: slateblue;
+  top:100px
+}
+
+.trace11{
+  width: 2px;
+  height: 200px;
+  background: slateblue;
+  left:150px
+}
+
+.trace12{
+  width: 2px;
+  height: 200px;
+  background: slateblue;
+  top: 200px;
+  left: 150px;
+}
+
+.trace13{
+  width: 2px;
+  height: 200px;
+  background: slateblue;
+  top: 200px;
+  left: 250px
+}
+
+.trace14{
+  width: 200px;
+  height: 2px;
+  background: slateblue;
+  top: 200px;
+  left: 150px
+}
 
 
 .string-mask-bottom-left {
