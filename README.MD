@@ -1,3 +1,5 @@
+![CSS negative space images](https://github.com/nastajus/CSS-experiments/raw/master/negative-space-images.png "Skateboard, Shoe sole, Tennis racket")
+
 # CSS Experiments
 
 ### 1. CSS property display:flex
@@ -20,7 +22,7 @@ These shapes are done built of pure CSS, with only empty divs as the only [HTML 
 
 ###### Skateboard: 
 **Time:** 3 hours
-**Features:** Rectangles, triangles, circles. Ellipitcal curves, circular curves.
+**Features:** Rectangles, triangles, circles. Elliptical curves, circular curves.
 
 Interestingly, the board is composed of two rectangles overlapping of differing dimensions, so that two distinct curves could be made with little complexity. (The simple beauty of black & white design shines here.) Layered on top are the wheels, and wheel hangers, but in white creating [negative space](https://en.wikipedia.org/wiki/Negative_space), with the corners curved with an equal radius on all sides (so circular corners). To get the triangular effect, used in part of the wheel hanger ("truck"), an interesting "abuse" or "hack" was used, involving pure borders and no body size, so to say. The pure circles for screws, those were really rectangles originally too, but those just have a maximum radius set, appearing as circles. 
 
@@ -28,12 +30,12 @@ Interestingly, the board is composed of two rectangles overlapping of differing 
 **Time:** 2 hours
 **Features:** Rotations. Multiple curve shapes per object. 
 
-I made two types of treads (white lines): one fully extending past the edge of the shoe, the other terminating within. To hide the fact these were sharp rectangles rotated at various angles, the corners are completely rounded, to avoid many jaggies sticking out all over. Essentially an artistic liberty taken to compensate for the limitations of this medium.  So this went faster due to the repeating pattern, just needed to copy-paste CSS blocks for each shoe tread and tweak sligthly their positions. 
+I made two types of treads (white lines): one fully extending past the edge of the shoe, the other terminating within. To hide the fact these were sharp rectangles rotated at various angles, the corners are completely rounded, to avoid many jaggies sticking out all over. Essentially an artistic liberty taken to compensate for the limitations of this medium.  So this went faster due to the repeating pattern, just needed to copy-paste CSS blocks for each shoe tread and tweak slightly their positions. 
 
 ###### Tennis Racket: 
 **Time:** 3 hours.  *(Intended to be 1 hour, backfired due to exhaustion)* 
 **Features:** Positions with rotations. Inverted curves.
 
-I deliberately complicated this design to push my knowledge. Fully aware this would cause design consequences by rotating everything in pure CSS, I proceeded regardless. This racket presented two challenges to choose from: either make the lines (strings) of variable lengths both begin and terminate perfectly within the thin line of an oval, or I'd have to perfectly obscure the protrusions with some kind of inverted curved corner. I ended up trying and imperfectly doing both, but I learned. In essense, this object choice made clear how important the CSS `transform-origin` property is when combined with **rotation** when combined with **absolute positioning** with trying to offset equally multiple copies. My last workflow was ruined, where I simply copy-pasted my `string` classes adjusted only the `top` or `left` properties. What I learned was I could've preserved this workflow with more careful usage of `transform-origin`.
+I deliberately complicated this design to push my knowledge. Fully aware this would cause design consequences by rotating everything in pure CSS, I proceeded regardless. This racket presented two challenges to choose from: either make the lines (strings) of variable lengths both begin and terminate perfectly within the thin line of an oval, or I'd have to perfectly obscure the protrusions with some kind of inverted curved corner. I ended up trying and imperfectly doing both, but I learned. In essence, this object choice made clear how important the CSS `transform-origin` property is when combined with **rotation** when combined with **absolute positioning** with trying to offset equally multiple copies. My last workflow was ruined, where I simply copy-pasted my `string` classes adjusted only the `top` or `left` properties. What I learned was I could've preserved this workflow with more careful usage of `transform-origin`.
 
 
